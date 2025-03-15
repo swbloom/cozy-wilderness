@@ -13,11 +13,11 @@ class GameLoop
 
     while @state.running?
       input = @interface.get_input
+      @interface.display_map(@state.map, @state.player)
       if Commands.handle(input, @state) == :quit
         @state.stop
       end
 
-      @interface.display_map(@state.map, @state.player)
     end
   end
 end

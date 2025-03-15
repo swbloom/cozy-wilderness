@@ -46,7 +46,6 @@ module Commands
     def execute(state)
       terrain = state.current_terrain
       puts "\nYou are standing on #{describe_terrain(terrain)}."
-      state.display_map
       :continue
     end
 
