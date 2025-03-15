@@ -1,0 +1,19 @@
+grass: 
+  symbol: "."
+  color: green
+
+tree:
+  symbol: "T"
+  color: green
+
+water:
+  symbol: "~"
+  color: blue
+
+mountain:
+  symbol: "^"
+  color: light_black
+
+path:
+  symbol: "#"
+  color: yellow
